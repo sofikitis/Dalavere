@@ -1,10 +1,5 @@
-# Daravere
+Στον φάκελο Project Code v0.1 υπάρχουν:
+    - όλο το project με όνομα Dalavere.rar, έτσι ώστε να μπορεί να εκτελεσεί στο Android Studio
+    - μεμονομένα τα αρχεία κώδικα που έχουμε γράψει για πιο εύκολο έλεγχο
+    
 
-Project code v0.1
--
-(Γιώργος Ζούλφος , Καψουλάκης Βαγγέλης)
--login/register/forgot_password pages
--MAP API
--Side menu bar
--Custom pop-up οταν clickaroume το marker.
--Details form για την επικοινωνια ντελιβερά - πελάτη
