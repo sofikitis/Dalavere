@@ -7,11 +7,11 @@ public class Order {
     Receiver receiver_obj;
     List<String> items;
     Address address_obj;
-    int estimated_cost;
+    float estimated_cost;
     int minutes;
     String status;
 
-    public Order(Receiver receiver_obj, List<String> items, Address address_obj, int estimated_cost, int minutes){
+    public Order(Receiver receiver_obj, List<String> items, Address address_obj, float estimated_cost, int minutes){
         this.receiver_obj = receiver_obj;
         this.items = items;
         this.address_obj = address_obj;

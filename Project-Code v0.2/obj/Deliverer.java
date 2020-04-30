@@ -5,7 +5,7 @@ class Deliverer extends User {
     Availability availability_obj;
 
 
-    private Deliverer(Availability availability_obj){
+    public Deliverer(Availability availability_obj){
         status = "Available";
         this.availability_obj = availability_obj;
     }

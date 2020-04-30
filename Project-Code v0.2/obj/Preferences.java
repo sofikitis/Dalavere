@@ -6,8 +6,8 @@ import java.util.List;
 public class Preferences {
     List<Address> addresses = new ArrayList<Address>();
 
-    public Preferences(){
-        
+    Preferences(){
+
     }
 	
 	public void addAddress(Address d){
