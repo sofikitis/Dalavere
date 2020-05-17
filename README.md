@@ -1,5 +1,5 @@
 Στον φάκελο Project Code v0.2 υπάρχουν:<br/>
-    - όλο το project με όνομα Dalavere.rar, έτσι ώστε να μπορεί να εκτελεσεί στο Android Studio<br/>
+    - όλο το project με όνομα Dalavere.rar, έτσι ώστε να μπορεί να εκτελεστεί στο Android Studio<br/>
     - ένας φάκελος με τα αρχεία κλάσεων για πιο εύκολο έλεγχο
     
 
