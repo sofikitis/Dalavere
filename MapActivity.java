@@ -149,6 +149,21 @@ public class MapActivity extends FragmentActivity implements GoogleMap.OnInfoWin
             Intent intent = new Intent(this, wallet_ui.class);                                         
             startActivity(intent);
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left); //animation
+        } else if (item.getItemId() == R.id.logout) {
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+        } else if (item.getItemId() == R.id.history){
+            Toast.makeText(MapActivity.this, "o sofikitis einai gay", Toast.LENGTH_SHORT).show();                      // vagelis skopelitis is gay LOL
+        }else if (item.getItemId() == R.id.account){
+            Toast.makeText(MapActivity.this, "o sofikitis einai gay", Toast.LENGTH_SHORT).show();
+        }else if (item.getItemId() == R.id.settings){
+            Toast.makeText(MapActivity.this, "o sofikitis einai gay", Toast.LENGTH_SHORT).show();
+        }else if (item.getItemId() == R.id.prefer){
+            Toast.makeText(MapActivity.this, "o sofikitis einai gay", Toast.LENGTH_SHORT).show();
+        }else if (item.getItemId() == R.id.delivery){
+            Toast.makeText(MapActivity.this, "o sofikitis einai gay", Toast.LENGTH_SHORT).show();
+        }else if (item.getItemId() == R.id.order){
+            Toast.makeText(MapActivity.this, "o sofikitis einai gay POLI GAY", Toast.LENGTH_SHORT).show();
         }
         drawer.closeDrawer(GravityCompat.START);
         return true;
