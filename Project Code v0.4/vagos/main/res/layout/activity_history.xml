@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Transaction history"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:theme="@style/DetailsTheme" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order #1                                              13,49$"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="12dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:theme="@style/DetailsTheme"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:id="@+id/details1"
+                android:text="10/5/2020 15:35 | x2 Amstel 330ml..."
+                android:textSize="16sp"
+                android:theme="@style/DetailsTheme"/>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent">
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="more_info"
+                    android:id="@+id/more_info1"
+                    android:layout_gravity="center"
+                    android:background="@drawable/accept_button"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="       "/>
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Report"
+                    android:id="@+id/Report1"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/decline_button"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order #2                                              2.50$"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="12dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:theme="@style/DetailsTheme"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="4/2/2020 12:39 | x1 Croissant champ... "
+                android:id="@+id/details2"
+                android:textSize="16sp"
+                android:theme="@style/DetailsTheme"/>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent">
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="more_info"
+                    android:id="@+id/more_info2"
+                    android:layout_gravity="center"
+                    android:background="@drawable/accept_button"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="       "/>
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Report"
+                    android:id="@+id/Report2"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/decline_button"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delivery #1                                           9.20$"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="12dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:theme="@style/DetailsTheme"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:id="@+id/details3"
+                android:text="10/5/2020 15:35 | x1 Milk olympus red..."
+                android:textSize="16sp"
+                android:theme="@style/DetailsTheme"/>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent">
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="more_info"
+                    android:id="@+id/more_info3"
+                    android:layout_gravity="center"
+                    android:background="@drawable/accept_button"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="       "/>
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Report"
+                    android:id="@+id/Report3"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/decline_button"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order #3                                                3.60$"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="12dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:theme="@style/DetailsTheme"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="4/2/2020 12:39 | x1 Softex x1 lighter... "
+                android:id="@+id/details4"
+                android:textSize="16sp"
+                android:theme="@style/DetailsTheme"/>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent">
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="more_info"
+                    android:id="@+id/more_info4"
+                    android:layout_gravity="center"
+                    android:background="@drawable/accept_button"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="       "/>
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Report"
+                    android:id="@+id/Report4"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/decline_button"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order #4                                              10,10$"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="12dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:theme="@style/DetailsTheme"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:id="@+id/details5"
+                android:text="10/5/2020 15:35 | x1 Marlboro red..."
+                android:textSize="16sp"
+                android:theme="@style/DetailsTheme"/>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent">
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="more_info"
+                    android:id="@+id/more_info5"
+                    android:layout_gravity="center"
+                    android:background="@drawable/accept_button"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="       "/>
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Report"
+                    android:id="@+id/Report5"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/decline_button"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delivery #2                                           4.60$"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="12dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:theme="@style/DetailsTheme"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="4/2/2020 12:39 | x1 RedBull 330ml... "
+                android:id="@+id/details6"
+                android:textSize="16sp"
+                android:theme="@style/DetailsTheme"/>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent">
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="more_info"
+                    android:id="@+id/more_info6"
+                    android:layout_gravity="center"
+                    android:background="@drawable/accept_button"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="       "/>
+                <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Report"
+                    android:id="@+id/Report6"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/decline_button"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
