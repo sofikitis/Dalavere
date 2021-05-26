@@ -1,4 +1,5 @@
-Στον φάκελο Project-Code 1.0 υπάρχει όλο το project με όνομα Dalavere.rar, έτσι ώστε να μπορεί να εκτελεστεί στο Android Studio<br/>
-    
+## Dalavere
+
+We used the SCRUM methodology to develop an app from scratch
     
 
