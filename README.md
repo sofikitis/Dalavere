@@ -1,6 +1,6 @@
 ## Dalavere
 
-**Order & Delivery Platform
+**Order & Delivery Platform**
 
 - Worked in a scrum team alternating roles to maximize experince for every member
 - Familiriazed with the software development pipeline
